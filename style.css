@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0 solid transparent;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    padding: 50px;
+}
+
+.section-one{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+
+.section-one__btn{
+    background-color: orangered;
+    color: #fff;
+    text-decoration: none;
+    padding:5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.section-one__name{
+    font-size: 60px;
+}
+
+.section-one__role{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.section-two, .section-three, .section-four, .section-five{
+    margin-top: 20px;
+}
+
+.section-two__desc, .section-three__desc, .section-four__desc, .section-five__desc{
+    margin-top: 10px;
+}
+
+.section-five{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+
+.section-five__social a{
+    color: skyblue;
+}
+
+.section-four__desc, .section-three__desc {
+    list-style-type: none;
+}
+
+.section-five__copyrights{
+    margin-top: 10px;
+}
+
+.section-three{
+    background-color: #6462fd;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.section-four{
+    background-color: #fe7517;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.contact{
+    margin-top: 20px;
+}
+
+.contact__input, .contact__textarea, .contact__submit{
+    margin-top: 10px;
+}
+
+.contact__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+.contact__textarea{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+.contact__submit{
+    padding: 10px 20px;
+    background-color: orangered;
+    color: black;
+    border: none;
+}
